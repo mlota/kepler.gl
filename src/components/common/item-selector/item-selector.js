@@ -272,7 +272,6 @@ class ItemSelector extends Component {
             <ChickletedInput
               {...dropdownSelectProps}
               selectedItems={_toArray(this.props.selectedItems)}
-              placeholder={this.props.placeholder}
               displayOption={displayOption}
               removeItem={this._removeItem}
             />
